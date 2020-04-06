@@ -133,6 +133,8 @@ $secondary-gray: #bcbcc5;
       }
 
       @media only screen and (max-width : 900px) {
+
+        height: 25px;
         .sort-name, .sort-details {
         
           button {
@@ -144,7 +146,7 @@ $secondary-gray: #bcbcc5;
           }
           
           .sort-option {
-            padding: 0 5px;
+            padding: 0;
           }
         }    
       }
@@ -154,10 +156,28 @@ $secondary-gray: #bcbcc5;
         .abbr {
           display: none;
         }
+
+        button {
+          padding: 0;
+        }
+
+        .sort-name {
+          width: 27%;
+          padding-left: 5px;
+        }
         
         .sort-details {
           width: 73%;
           margin: 0;
+        }
+      }
+
+      @media only screen and (max-width : 330px) {
+
+        .sort-name, .sort-details {
+          button {
+            font-size: 8px;
+          }
         }
       }
     }
@@ -230,6 +250,7 @@ $secondary-gray: #bcbcc5;
           }
 
           .details-container {
+            margin-left: 0;
             font-size: 13px;
           }
         }   
@@ -253,7 +274,15 @@ $secondary-gray: #bcbcc5;
           }
 
           .details-container {
-            font-size: 16px;
+            font-size: 14px;
+          }
+        }
+      }
+
+      @media only screen and (max-width : 330px) {
+        .StateContainer {
+          .details-container {
+            font-size: 10px;
           }
         }
       }
