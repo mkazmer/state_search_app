@@ -68,8 +68,7 @@ $secondary-gray: #bcbcc5;
     .SortBar {
       background-color: $secondary-gray;
 
-      .sort-name, .sort-details {
-        
+      .sort-name, .sort-details {     
         button {
           border: none;
           height: 20px;
@@ -183,7 +182,6 @@ $secondary-gray: #bcbcc5;
     }
 
     .results-container {
-
       .StateContainer {
         height: 40px;
         margin-top: 10px;
@@ -243,8 +241,7 @@ $secondary-gray: #bcbcc5;
       }
 
       @media only screen and (max-width : 900px) {
-        .StateContainer {
-     
+        .StateContainer {   
           .name-container {
             font-size: 15px;
           }
